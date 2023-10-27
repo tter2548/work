@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styies.css">
+    <script>
+        function setUsername(){
+            document.getElementById("username-p").innerHTML = document.getElementById("username").value;
+        }
+
+        function setProfileImage(){
+            document.getElementById("profileImage").style.backgroundImage = "url(" + document.getElementById("profileimg").value+ ")"
+        }
+    </script>
+</head>
+<body>
+    <div class="content">
+        <div class="avatar">
+            <div class="noti-parent">   
+                <div class="noti">6</div>
+                <div class="profile-img"></div>         
+            </div>
+            
+        </div>
+        <div class="username">
+            <p style="font-size: x-large; font-weight: 600;">Thanyaruj's gallery</p>
+        </div>
+        <div class="input-group"></div>
+            <div><label style="font-weight: 400;">username</label><input style="margin-left: 10px;" type="text"
+                    id="username"><button style="margin-left: 10px;" id="setUsername">Apply</button></div>
+            <div><label style="font-weight: 400;">profile-img</label><input style="margin-left: 10px;" type="text"
+                id="profileimg"><button style="margin-left: 10px;" id="setprofile">Apply</button></div>
+        </dip>
+        <div class="gallery">
+            <div class="gallery-item col-span" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RedCat_8727.jpg/1200px-RedCat_8727.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg) ;"></div>
+            <div class="gallery-item" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BE%D1%82_%D0%9B%D1%83%D0%BB%D0%B0%D0%BC%D0%B5%D0%B9_%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0%2C_%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD_%D0%BC%D0%B8%D1%80%D0%B0_%D0%BF%D0%BE_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5_WCF%2C_%D0%BE%D0%BA%D1%80%D0%B0%D1%81_%D0%B1%D0%BB%D1%8E_%D0%BF%D0%BE%D0%B8%D0%BD%D1%82_01_%28cropped%29.jpg/640px-thumbnail.jpg) ;"></div>
+            <div class="gallery-item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJCpCdWiUEXEM_XdSnqHcvfZkz3U5NOZLMQ&usqp=CAU) ;"></div>
+            <div class="gallery-item" style="background-image: url(https://www.lismore.nsw.gov.au/files/assets/public/v/1/1.-households/3.-pets-amp-animals/images/kitten.jpg?dimension=pageimage&w=480);"></div>
+            <div class="gallery-item" style="background-image: url(https://images.theconversation.com/files/168121/original/file-20170505-1693-ymh4bc.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip);"></div>
+            <div class="gallery-item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEnKJj1y3j-ebKhjFKuLlbyolxunTT__yX1g&usqp=CAU);"></div>
+            <div class="gallery-item row-span" style="background-image: url(https://www.purina.co.uk/sites/default/files/2023-03/Hero%20Pedigree%20Cats.jpg);"></div>
+            <div class="gallery-item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4ZBVltbIEEDTKwVGA2fRX3wW7rT4tR3k_Kw&usqp=CAU);"></div>
+            <div class="gallery-item" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS_5Upf-ZFsOezopa-biGuHkmZTLU68IM2QQ&usqp=CAU);"></div>
+        </div>
+    </div>   
+</body>
+</html>
